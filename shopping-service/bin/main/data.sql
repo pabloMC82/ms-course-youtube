@@ -1,1 +1,0 @@
-select * from tlb_invoices;
