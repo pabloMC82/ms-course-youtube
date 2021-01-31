@@ -35,7 +35,7 @@ public class InvoiceRest {
         }
         return  ResponseEntity.ok(invoices);
     }
-
+/*
     // -------------------Retrieve Single Invoice------------------------------------------
     @GetMapping(value = "/{id}")
     public ResponseEntity<Invoice> getInvoice(@PathVariable("id") long id) {
@@ -109,4 +109,5 @@ public class InvoiceRest {
         }
         return jsonString;
     }
+    */
 }
