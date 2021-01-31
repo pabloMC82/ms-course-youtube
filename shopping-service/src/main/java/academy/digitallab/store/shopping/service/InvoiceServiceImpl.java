@@ -22,21 +22,22 @@ public class InvoiceServiceImpl implements InvoiceService {
 
     @Autowired
     InvoiceRepository invoiceRepository;
-/*
+
     @Autowired
     InvoiceItemsRepository invoiceItemsRepository;
+    
     @Autowired
     CustomerClient customerClient;
 
     @Autowired
     ProductClient productClient;
-*/
+
     @Override
     public List<Invoice> findInvoiceAll() {
         return  invoiceRepository.findAll();
     }
 
-/*
+
     @Override
     public Invoice createInvoice(Invoice invoice) {
         Invoice invoiceDB = invoiceRepository.findByNumberInvoice ( invoice.getNumberInvoice () );
@@ -94,5 +95,4 @@ public class InvoiceServiceImpl implements InvoiceService {
         }
         return invoice ;
     }
-    */
 }
